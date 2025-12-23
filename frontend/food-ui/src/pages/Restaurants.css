@@ -1,0 +1,48 @@
+.restaurants-hero {
+  background: linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url("https://images.unsplash.com/photo-1528605248644-14dd04022da1");
+  background-size: cover;
+  background-position: center;
+  padding: 70px 20px;
+  text-align: center;
+  color: white;
+}
+
+.restaurants-hero h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.restaurants-hero p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.restaurants-hero input {
+  width: 90%;
+  max-width: 420px;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.restaurants-container {
+  padding: 40px 6%;
+}
+
+.restaurants-container h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+}

@@ -1,0 +1,91 @@
+.payment-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff3e0, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-card {
+  background: white;
+  width: 400px;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  animation: slideUp 0.6s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.payment-title {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #3e4152;
+}
+
+.amount-box {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.amount-box span {
+  font-size: 0.9rem;
+  color: #7e808c;
+}
+
+.amount-box h1 {
+  margin-top: 5px;
+  color: #60b246;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-option {
+  border: 1px solid #e9e9eb;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.payment-option:hover {
+  border-color: #60b246;
+  background: #f5fff1;
+}
+
+.pay-btn {
+  width: 100%;
+  margin-top: 25px;
+  background: #60b246;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pay-btn:hover {
+  transform: scale(1.03);
+}
+
+.secure-text {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #7e808c;
+}
