@@ -1,22 +1,20 @@
 import axios from "axios";
 
 /**
- * User + Restaurant Service
- * PORT 5000
+ * User + Restaurant Service (Render)
  */
 export const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://backend-user-service-xd8r.onrender.com",
   headers: {
     "Content-Type": "application/json"
   }
 });
 
 /**
- * Order Service
- * PORT 5001
+ * Order Service (Render)
  */
 export const orderApi = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://backend-order-service.onrender.com",
   headers: {
     "Content-Type": "application/json"
   }
